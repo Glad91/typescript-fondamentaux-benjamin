@@ -11,9 +11,9 @@ init()
  * @example
  * class MyClass implements IName {
  *   name: string = "Test"
- *   printName(): string {
- *     return this.name
- *   }
+ *   printName() : string {
+ *     return this.name *
+ *  }
  * }
  */
 interface IName {
